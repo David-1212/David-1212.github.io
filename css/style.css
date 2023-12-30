@@ -8738,11 +8738,14 @@ h1, h2, h3, h4, h5,
   padding: 4em 0 !important; }
   .ftco-partner .partner {
     display: block;
-    padding: 0 20px; }
+    padding: 0 20px; 
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente */ }
     @media (max-width: 991.98px) {
       .ftco-partner .partner {
         padding: 0 70px;
-        margin-bottom: 40px; } }
+        margin-bottom: 40px;
+       } }
 
 .services-1 {
   margin-bottom: 40px;
@@ -9640,6 +9643,16 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
+
+  .partner-img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
+.project.img {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 @-webkit-keyframes loader-rotate {
   100% {
