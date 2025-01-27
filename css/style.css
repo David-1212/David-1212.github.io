@@ -9685,3 +9685,58 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    .ftco-about {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+	
+		.ftco-about .heading-section h2 {
+			font-size: 28px;
+			font-weight: 600;
+			color: #333;
+			margin-bottom: 20px;
+		}
+	
+		.ftco-about .about-info {
+			list-style: none;
+			padding-left: 0;
+			font-size: 16px;
+		}
+	
+		.ftco-about .about-info li {
+			margin-bottom: 10px;
+		}
+	
+		.ftco-about .about-info li span {
+			font-weight: 600;
+		}
+	
+		.ftco-about .img-about .img {
+			background-size: cover;
+			background-position: center;
+			height: 100%;
+			border-radius: 10px;
+		}
+	
+		/* Para darle un poco de margen y mejorar la visualización de la columna de texto */
+		.ftco-about .col-md-6 {
+			padding: 20px;
+		}
