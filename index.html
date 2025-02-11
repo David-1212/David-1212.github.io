@@ -187,6 +187,192 @@
 		</div>
 	  </section>
 	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  <section class="ftco-section ftco-partner">
+		<div class="container">
+			<p class="text-center" style="font-size: 18px; font-weight: 300;">Tengo experiencia en una variedad de especialidades médicas, incluyendo el diagnóstico y tratamiento de tumores óseos, artrosis, fracturas, cirugía de pie y tobillo, cirugía de mano, entre otras. Haz clic en las imágenes de abajo para conocer más sobre cada área y cómo puede ayudarte.</p>
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="Tumores_oseos.html">
+							<div class="slide-content">
+								<img src="images/Experta/Tumores Oseos.jpg" alt="tumores oseos" class="slide-image">
+								<div class="text-content">
+									<h3>Tumores Óseos</h3>
+									<p>Los Tumores Óseos son crecimientos de tejido nuevo del hueso que se desarrolla por medio de la multiplicación progresiva de sus células.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="Artrosis.html">
+							<div class="slide-content">
+								<img src="images/Experta/artrosis.webp" alt="Artrosis" class="slide-image">
+								<div class="text-content">
+									<h3>Artrosis</h3>
+									<p>La Artrosis o Artropatía Degenerativa es una enfermedad que afecta a las articulaciones y al cartílago. La Artrosis produce una cierta incapacidad, pero es difícil que provoque invalidez.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="Fracturas.html">
+							<div class="slide-content">
+								<img src="images/Experta/fractura-del-pie-1.jpeg" alt="Fractura" class="slide-image">
+								<div class="text-content">
+									<h3>Fractura</h3>
+									<p>Una Fractura es la alteración o pérdida de la integridad ósea. Son algunas afecciones patológicas más comunes que afectan a los huesos.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="Cirujia de pie y tobillo.html">
+							<div class="slide-content">
+								<img src="images/Experta/cirugia de pie y tobillo.jpg" alt="Cirugía de pie y tobill" class="slide-image">
+								<div class="text-content">
+									<h3>Cirugía de pie y tobillo</h3>
+									<p>La Cirugía de la Mano se realiza por varias razones, por una infección en la mano, por una lesión en la mano o para corregir afecciones que puedan llegar a afectar a la mano a largo plazo.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="Cirujia de mano.html">
+							<div class="slide-content">
+								<img src="images/Experta/cirugia de mano.jpg" alt="Cirugía de mano" class="slide-image">
+								<div class="text-content">
+									<h3>Cirugía de mano</h3>
+									<p>Es un procedimiento quirúrgico que busca la rehabilitación y movilidad en deformidades graves en antepié para pacientes reumáticos, secuelas de accidentes graves, Fracturas de Tobillo, y más.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="Sarcoma.html">
+							<div class="slide-content">
+								<img src="images/Experta/Sarcoma.webp" alt="Sarcoma" class="slide-image">
+								<div class="text-content">
+									<h3>Sarcoma</h3>
+									<p>El Sarcoma es un tumor maligno que se origina en los tejidos blandos del cuerpo, como los músculos, el tejido conectivo, los vasos sanguíneos, los vasos linfáticos y los nervios.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<p class="text-center mt-4" style="font-size: 16px; color: #555;">Haz clic en las imágenes para obtener más información sobre cada especialidad.</p>
+		</div>
+	</section>
+	
+	<style>
+		.swiper-slide {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.slide-content {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+			max-width: 800px;
+		}
+		.slide-image {
+			width: 250px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+		.text-content {
+			max-width: 500px;
+			text-align: left;
+		}
+		.text-content h3 {
+			margin: 0 0 10px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.text-content p {
+			margin: 0;
+			font-size: 16px;
+		}
+		
+		/* Responsividad */
+		@media (max-width: 768px) {
+			.slide-content {
+				flex-direction: column;
+				text-align: center;
+			}
+			.slide-image {
+				width: 100%;
+				height: auto;
+			}
+			.text-content {
+				max-width: 100%;
+				padding: 10px;
+			}
+		}
+	</style>
+	
+	<!-- Swiper.js -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			loop: true,
+			autoplay: {
+				delay: 3000, // Cambia de slide cada 3 segundos
+				disableOnInteraction: false,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+		});
+	</script>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	  
 	  
 
